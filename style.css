@@ -26,6 +26,7 @@
 .title {
     font-family: 'Heebo', sans-serif;
     font-size: 60px;
+    font-weight: 300;
 }
 
 .main-pic {
@@ -39,11 +40,29 @@
 
 #offer-page {
     text-align: center;
+    font-family: 'Heebo', sans-serif;
+    padding: 2% 5%;
+}
+
+.offers {
+    padding: 6% 0;
+    width: 30%;
 }
 
 .offer-title {
-    font-family: 'Heebo', sans-serif;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 400;
     color: #2A4F96;
+}
+
+.offer-paragraph-title {
+    font-size: 22px;
+    font-weight: bold;   
+}
+
+.offer-paragraph {
+}
+
+.offer-icon {
+    padding-bottom: 10%;
 }
