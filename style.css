@@ -2,6 +2,8 @@ html {
     height: 100%;
 }
 
+/* This makes the background picture responsive, nice */
+
 body {
     background: url('images/main-picture.jpg');
     background-position: center center;
@@ -60,7 +62,7 @@ body {
 }
 
 .offer-title {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     color: #2A4F96;
 }
@@ -80,15 +82,29 @@ body {
     transition: 0.3s ease-in-out;
   }
 
-  /* Page */
+  /* Solutions Page */
 
   #solutions-page {
-      background-color: #2A4F96;
-      color: white;
+      font-family: 'Heebo', sans-serif;
+      padding: 0 15%;
   }
 
-  .models-title {
+  .solutions-title {
       text-align: center;
-      font-size: 50px;
+      font-size: 40px;
       font-weight: 400;
+      color: #2A4F96;
+      padding-bottom: 8%;
+  }
+
+  .panel-picture-left {
+      float: left;
+      width: 350px;
+      height: 350px;
+      border-radius: 5%;
+      margin-right: 15%;
+  }
+
+  .model-title {
+      font-size: 22px;
   }
