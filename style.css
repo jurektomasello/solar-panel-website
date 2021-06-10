@@ -97,8 +97,7 @@ body {
       padding-bottom: 8%;
   }
 
-  .panel-picture-left {
-      float: left;
+  .model-picture {
       width: 350px;
       height: 350px;
       border-radius: 5%;
@@ -107,4 +106,12 @@ body {
 
   .model-title {
       font-size: 22px;
+  }
+
+  .solutions-block {
+      margin-bottom: 10%;
+  }
+
+  .button-div {
+      padding-top: 10%;
   }
