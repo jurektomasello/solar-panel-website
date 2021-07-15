@@ -142,10 +142,15 @@ body {
   }
 
   .testimonial-img {
-    border-radius: 50%;
-    margin: 0 auto 50px auto;
+    border-radius: 70%;
+    object-fit: cover;
+    margin: 10% auto 10px auto;
 }
 
-.carousel-item {
-    padding: 5% 18%;
+.testimonials-text {
+    font-style: italic;
+}
+
+.testimonial-name {
+    font-size: 14px;
 }
