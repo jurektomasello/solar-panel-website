@@ -18,16 +18,22 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'NTR', sans-serif;
+    font-family: 'Capriola', sans-serif;
+    color: #FFDE59;
     font-size: 50px;
     font-weight: bold;
 }
 
 .nav-link {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    color: white;
     font-weight: bold;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.nav-link:hover {
+    color: #FFDE59;
 }
 
 /* Title */
@@ -43,16 +49,15 @@ body {
 
 .main-title {
     padding-left: 4%;
-    font-family: 'Heebo', sans-serif;
-    font-size: 60px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 70px;
     font-weight: 300;
 }
 
 /* Offer Page */
 
 #offer-page {
-    text-align: center;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Cabin', sans-serif;
     padding: 2% 10%;
 }
 
@@ -61,10 +66,20 @@ body {
     width: 30%;
 }
 
+.titles-boxes {
+    background-color: #6580A1;
+    width: 60%;
+    padding: 2% 2%;
+}
+
 .offer-title {
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 400;
-    color: #2A4F96;
+    color: #EBEBEA;
+}
+
+.perks-section {
+    text-align: center;
 }
 
 .offer-paragraph-title {
@@ -74,7 +89,7 @@ body {
 
 .offer-icon {
     margin: 0 auto 55px auto;
-    color: #FB9646;
+    color: #FFDE59;
 }
 
 .offer-icon:hover {
@@ -130,8 +145,12 @@ body {
 
   #testimonials-page {
     font-family: 'Heebo', sans-serif;
-    padding: 0 15%;
+    padding: 0 15%;;
     text-align: center;
+  }
+
+  .testimonials-card {
+      width: 17em;
   }
 
   .testimonials.title {
