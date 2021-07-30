@@ -68,7 +68,7 @@ body {
 
 .titles-boxes {
     background-color: #6580A1;
-    width: 60%;
+    width: 550px;
     padding: 2% 2%;
 }
 
@@ -106,13 +106,13 @@ body {
 
 .titles-boxes-right {
     background-color: #6580A1;
-    width: 60%;
+    width: 550px;
     padding: 2% 2%;
     float: right;
 }
 
 .solutions-title {
-    text-align: center;
+    text-align: right;
     font-size: 70px;
     font-weight: 400;
     color: #EBEBEA;
@@ -169,21 +169,25 @@ body {
 /* Testimonials Page */
 
 #testimonials-page {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Cabin', sans-serif;
     padding: 0 15%;
-    ;
     text-align: center;
 }
 
-.testimonials-card {
-    width: 17em;
+.card {
+    display: inline-block;
+    width: 400px;
 }
 
-.testimonials.title {
-    font-size: 40px;
+.testimonials-card {
+    width: 
+}
+
+.testimonials-title {
+    font-size: 70px;
     font-weight: 400;
-    color: #2A4F96;
-    padding-bottom: 8%;
+    color: #EBEBEA;
+    text-align: left;
 }
 
 .testimonial-img {
