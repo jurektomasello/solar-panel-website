@@ -207,30 +207,39 @@ body {
 /* Contact Section */
 
 #contact {
-    background: linear-gradient(
-      to right, 
-      #ffffff 0%, 
-      #ffffff 50%, 
-      #384258 50%, 
-      #384258 100%
-    ); 
+    background: linear-gradient( to right, #ffffff 0%, #ffffff 50%, #384258 50%, #384258 100%);
     font-family: 'Cabin', sans-serif;
-  }
+    margin-top: 15%;
+}
 
-  .container {
+.container-contact {
     flex: 0 1 300px;
-    margin: auto;
+    margin-top: 7%;
     padding: 10px;
-  }
-  
-  .screen {
+}
+
+.contact-left-title {
+    margin: 0 0 0 15%;
+    font-size: 60px;
+    display: inline;
+}
+
+.contact-right-title {
+    float: right;
+    color: #EBEBEA;
+    margin-right: 15%;
+    font-size: 60px;
+    display: inline;
+}
+
+.screen {
     position: relative;
-    background: #3e3e3e;
+    background: #90A5B9;
     border-radius: 15px;
     width: 40%;
-  }
-  
-  .screen:after {
+}
+
+.screen:after {
     content: '';
     display: block;
     position: absolute;
@@ -241,77 +250,77 @@ body {
     border-radius: 15px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
     z-index: -1;
-  }
-  
-  .screen-header {
+}
+
+.screen-header {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background: #4d4d4f;
+    background: #6580A1;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-  }
-  
-  .screen-header-left {
+}
+
+.screen-header-left {
     margin-right: auto;
-  }
-  
-  .screen-header-button {
+}
+
+.screen-header-button {
     display: inline-block;
     width: 8px;
     height: 8px;
     margin-right: 3px;
     border-radius: 8px;
     background: white;
-  }
-  
-  .screen-header-button.close {
+}
+
+.screen-header-button.close {
     background: #ed1c6f;
-  }
-  
-  .screen-header-button.maximize {
+}
+
+.screen-header-button.maximize {
     background: #e8e925;
-  }
-  
-  .screen-header-button.minimize {
+}
+
+.screen-header-button.minimize {
     background: #74c54f;
-  }
-  
-  .screen-header-right {
+}
+
+.screen-header-right {
     display: flex;
-  }
-  
-  .screen-header-ellipsis {
+}
+
+.screen-header-ellipsis {
     width: 3px;
     height: 3px;
     margin-left: 2px;
     border-radius: 8px;
     background: #999;
-  }
-  
-  .screen-body {
+}
+
+.screen-body {
     display: flex;
-  }
-  
-  .screen-body-item {
+}
+
+.screen-body-item {
     flex: 1;
     padding: 50px;
-  }
-  
-  .screen-body-item.left {
+}
+
+.screen-body-item.left {
     display: flex;
     flex-direction: column;
-  }
-  
-  .app-title {
+}
+
+.app-title {
     display: flex;
     flex-direction: column;
     position: relative;
     color: #ea1d6f;
     font-size: 26px;
-  }
-  
-  .app-title:after {
+}
+
+.app-title:after {
     content: '';
     display: block;
     position: absolute;
@@ -320,96 +329,84 @@ body {
     width: 25px;
     height: 4px;
     background: #ea1d6f;
-  }
-  
-  .app-contact {
+}
+
+.app-contact {
     margin-top: auto;
     font-size: 8px;
     color: #888;
-  }
-  
-  .app-form-group {
+}
+
+.app-form-group {
     margin-bottom: 15px;
-  }
-  
-  .app-form-group.message {
+}
+
+.app-form-group.message {
     margin-top: 40px;
-  }
-  
-  .app-form-group.buttons {
+}
+
+.app-form-group.buttons {
     margin-bottom: 0;
     text-align: right;
-  }
-  
-  .app-form-control {
+}
+
+.app-form-control {
     width: 100%;
     padding: 10px 0;
     background: none;
     border: none;
-    border-bottom: 1px solid #666;
-    color: #ddd;
+    border-bottom: 1px solid white;
+    color: white;
     font-size: 14px;
     text-transform: uppercase;
     outline: none;
-    transition: border-color .2s;
-  }
-  
-  .app-form-control::placeholder {
-    color: #666;
-  }
-  
-  .app-form-control:focus {
+}
+
+.app-form-control::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.app-form-control:focus {
     border-bottom-color: #ddd;
-  }
-  
-  .app-form-button {
-    font-family: ;
+}
+
+.app-form-button {
     background: none;
     border: none;
     color: #ea1d6f;
     font-size: 14px;
     cursor: pointer;
     outline: none;
-  }
-  
-  .app-form-button:hover {
+}
+
+.app-form-button:hover {
     color: #b9134f;
-  }
-  
-  .dribbble {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-  }
-  
-  @media screen and (max-width: 520px) {
+}
+
+@media screen and (max-width: 520px) {
     .screen-body {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
     .screen-body-item.left {
-      margin-bottom: 30px;
+        margin-bottom: 30px;
     }
-  
     .app-title {
-      flex-direction: row;
+        flex-direction: row;
     }
-  
     .app-title span {
-      margin-right: 12px;
+        margin-right: 12px;
     }
-  
     .app-title:after {
-      display: none;
+        display: none;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .screen-body {
-      padding: 40px;
+        padding: 40px;
     }
-  
     .screen-body-item {
-      padding: 0;
+        padding: 0;
     }
-  }
+}
