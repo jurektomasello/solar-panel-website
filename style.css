@@ -205,11 +205,11 @@ body {
 }
 
 /* Contact Section */
-
 #contact {
     background: linear-gradient( to right, #ffffff 0%, #ffffff 50%, #384258 50%, #384258 100%);
     font-family: 'Cabin', sans-serif;
     margin-top: 15%;
+    position: relative;
 }
 
 .container-contact {
@@ -232,11 +232,14 @@ body {
     display: inline;
 }
 
+
+/* Contact Form */
 .screen {
     position: relative;
+    margin-left: 4%;
     background: #90A5B9;
     border-radius: 15px;
-    width: 40%;
+    width: 30%;
 }
 
 .screen:after {
@@ -409,4 +412,47 @@ body {
     .screen-body-item {
         padding: 0;
     }
+}
+
+.address {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 750px;
+    bottom: 300px;
+}
+
+/* Map */
+.mapouter {
+    margin-bottom: 100px;
+    right: 10px;
+    bottom: 350px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #6580A1;
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.social-icons {
+    display: inline-flex;
+    width: 300px;
+    margin: 1.4% 0 0 30%;
+}
+
+.footer-text {
+    margin-right: 15%;
+}
+
+a {
+    color: #EBEBEA;
+}
+
+a:hover {
+    color: #384258;
 }
