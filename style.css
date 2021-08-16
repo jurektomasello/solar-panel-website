@@ -415,7 +415,7 @@ body {
 }
 
 .address {
-    color: white;
+    color: #EBEBEA;
     font-size: 20px;
     position: absolute;
     left: 750px;
@@ -432,21 +432,41 @@ body {
 /* Footer */
 .footer {
     width: 100%;
-    height: 60px;
+    height: 100%;
+    padding: 3% 3%;
     background-color: #6580A1;
-    text-align: center;
-    color: white;
-    padding-bottom: 2%;
+    color: #EBEBEA;
+    display: flex;
+}
+
+.footer ul {
+    font-size: 1em;
+    list-style-type: none;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul a {
+    text-decoration: none;
+}
+
+.footer-list {
+    margin-right: 20%;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row {
+    width: 100%;
 }
 
 .social-icons {
     display: inline-flex;
     width: 300px;
-    margin: 1.4% 0 0 30%;
-}
-
-.footer-text {
-    margin-right: 15%;
+    margin: 0.5% 0 0 30%;
 }
 
 a {
