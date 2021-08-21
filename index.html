@@ -41,14 +41,16 @@
         <!--Nav Bar-->
 
         <nav class="navbar navbar-expand-md bg-transparent">
-            <img src="images/brand-logo.png" width="90" height="90" alt="">
-            <a class="navbar-brand" href="#">LUX</a>
+            <div class="brand">
+                <img src="images/brand-logo.png" width="90" height="90" alt="">
+                <a class="navbar-brand" href="#">LUX</a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">HELP</span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#title">Models</a>
                     </li>
@@ -238,43 +240,47 @@
     </section>
 
     <section id="contact">
-        <h1 class="contact-left-title">Wanna talk?</h1>
 
-        <h1 class="contact-right-title">Here we are</h1>
+        <div class="flex-container">
+            <div class="flex-child left-half">
 
-        <div class="background">
-            <div class="container-contact">
-                <div class="screen">
-                    <div class="screen-header">
-                        <div class="screen-header-left">
-                            <div class="screen-header-button close"></div>
-                            <div class="screen-header-button maximize"></div>
-                            <div class="screen-header-button minimize"></div>
-                        </div>
-                        <div class="screen-header-right">
-                            <div class="screen-header-ellipsis"></div>
-                            <div class="screen-header-ellipsis"></div>
-                            <div class="screen-header-ellipsis"></div>
-                        </div>
-                    </div>
-                    <div class="screen-body">
-                        <div class="screen-body-item">
-                            <div class="app-form">
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="NAME">
+                <h1 class="contact-left-title">Wanna talk?</h1>
+
+                <div class="background">
+                    <div class="container-contact">
+                        <div class="screen">
+                            <div class="screen-header">
+                                <div class="screen-header-left">
+                                    <div class="screen-header-button close"></div>
+                                    <div class="screen-header-button maximize"></div>
+                                    <div class="screen-header-button minimize"></div>
                                 </div>
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="EMAIL">
+                                <div class="screen-header-right">
+                                    <div class="screen-header-ellipsis"></div>
+                                    <div class="screen-header-ellipsis"></div>
+                                    <div class="screen-header-ellipsis"></div>
                                 </div>
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="CONTACT N.">
-                                </div>
-                                <div class="app-form-group message">
-                                    <input class="app-form-control" placeholder="YOUR MESSAGE">
-                                </div>
-                                <div class="app-form-group buttons">
-                                    <button class="app-form-button">CANCEL</button>
-                                    <button class="app-form-button">SEND</button>
+                            </div>
+                            <div class="screen-body">
+                                <div class="screen-body-item">
+                                    <div class="app-form">
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="NAME">
+                                        </div>
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="EMAIL">
+                                        </div>
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="CONTACT N.">
+                                        </div>
+                                        <div class="app-form-group message">
+                                            <input class="app-form-control" placeholder="YOUR MESSAGE">
+                                        </div>
+                                        <div class="app-form-group buttons">
+                                            <button class="app-form-button">CANCEL</button>
+                                            <button class="app-form-button">SEND</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -282,34 +288,37 @@
                 </div>
             </div>
 
-            <div class="address">
-                <p>39 Harrison St</p>
-                <p>New York, NY, 10013</p>
-                <p>United States</p>
-            </div>
+            <div class="flex-child right-half">
 
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="500" height="440" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=New%20York&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                        href="https://getasearch.com/nordvpn-coupon/"></a><br>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 340px;
-                            width: 400px;
-                            float: right;
-                        }
-                    </style><a href="https://www.embedgooglemap.net">inserting google maps</a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 300px;
-                            width: 360px;
-                        }
-                    </style>
+                <h1 class="contact-right-title">Here we are</h1>
+
+                <div class="address">
+                    <p>39 Harrison St</p>
+                    <p>New York, NY, 10013</p>
+                    <p>United States</p>
+                </div>
+
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="500" height="440" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=New%20York&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://getasearch.com/nordvpn-coupon/"></a><br>
+                        <style>
+                            .mapouter {
+                                height: 340px;
+                                width: 400px;
+                                float: right;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">inserting google maps</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 300px;
+                                width: 360px;
+                            }
+                        </style>
+                    </div>
                 </div>
             </div>
         </div>
@@ -357,4 +366,5 @@
     </footer>
 
 </body>
+
 </html>
