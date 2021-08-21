@@ -3,6 +3,7 @@ html {
 }
 
 /* This makes the background picture responsive, nice */
+
 body {
     background: url('images/main-picture.jpg');
     background-position: center center;
@@ -14,6 +15,10 @@ body {
 
 .navbar {
     padding: 2% 4%;
+}
+
+.brand {
+    width: 250px;
 }
 
 .navbar-brand {
@@ -209,11 +214,28 @@ body {
 }
 
 /* Contact Section */
+
 #contact {
-    background: linear-gradient( to right, #ffffff 0%, #ffffff 50%, #384258 50%, #384258 100%);
     font-family: 'Cabin', sans-serif;
     margin-top: 15%;
     position: relative;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.left-half {
+    padding-top: 3%;
+}
+
+.right-half {
+    background-color: #384258;
+    padding-top: 3%;
 }
 
 .container-contact {
@@ -229,21 +251,19 @@ body {
 }
 
 .contact-right-title {
-    float: right;
     color: #EBEBEA;
-    margin-right: 15%;
     font-size: 60px;
-    display: inline;
+    text-align: center;
 }
 
-
 /* Contact Form */
+
 .screen {
     position: relative;
     margin: 0 0 2.5% 3%;
     background: #90A5B9;
     border-radius: 15px;
-    width: 30%;
+    width: 60%;
 }
 
 .screen:after {
@@ -371,7 +391,8 @@ body {
 
 .app-form-control::placeholder {
     color: white;
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
 }
 
 .app-form-control:focus {
@@ -391,23 +412,21 @@ body {
     color: #b9134f;
 }
 
-
 .address {
     color: #EBEBEA;
-    font-size: 20px;
+    font-size: 17px;
     position: absolute;
-    left: 750px;
-    bottom: 300px;
+    margin: 6% 0 0 2%;
 }
 
 /* Map */
+
 .mapouter {
-    margin-bottom: 100px;
-    right: 10px;
-    bottom: 350px;
+    margin-top: 22%;
 }
 
 /* Footer */
+
 .footer {
     width: 100%;
     height: 280px;
@@ -450,7 +469,8 @@ body {
 .footer .container {
     display: flex;
     justify-content: space-between;
-    position: absolute; /* Makes container stay within footer */
+    position: absolute;
+    /* Makes container stay within footer */
 }
 
 .footer .row {
@@ -479,6 +499,12 @@ body {
 
 /* Media Queries */
 
+@media screen and (max-width: 770px) {
+    .navbar {
+        text-align: left;
+    }
+}
+
 @media screen and (max-width: 520px) {
     .screen-body {
         flex-direction: column;
@@ -505,4 +531,3 @@ body {
         padding: 0;
     }
 }
-
