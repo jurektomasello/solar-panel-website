@@ -18,7 +18,7 @@ body {
 }
 
 .brand {
-    width: 250px;
+    display: inline-flex;
 }
 
 .navbar-brand {
@@ -498,6 +498,22 @@ body {
 }
 
 /* Media Queries */
+
+ @media screen and (max-width: 1174px) {
+     .model-picture, .model-picture-right {
+         margin: 10% 0 10% 0;
+     }
+
+    .solutions-block {
+        display: inline-block;
+        padding: 35px 0 35px 0%;
+        margin: auto;
+    }
+    
+    .model-title, .model-title-right, .model-description, .model-description-right {
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 770px) {
     .navbar {
