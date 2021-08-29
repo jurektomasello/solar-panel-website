@@ -506,18 +506,31 @@ body {
 
     .solutions-block {
         display: inline-block;
-        padding: 35px 0 35px 0%;
+        padding: 50px 0 50px 0%;
         margin: auto;
     }
     
     .model-title, .model-title-right, .model-description, .model-description-right {
         text-align: center;
+        width: 360px;
+    }
+
+    .container-solutions {
+        padding: 30% 0 0 25%;
+    }
+
+    .col-md-6 {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 770px) {
     .navbar {
         text-align: left;
+    }
+
+    .container-solutions {
+        padding-left: 15%;
     }
 }
 
