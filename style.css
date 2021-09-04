@@ -72,7 +72,6 @@ body {
 
 .offers {
     padding: 8% 0;
-    width: 30%;
 }
 
 .titles-boxes {
@@ -84,7 +83,8 @@ body {
 .offer-title {
     font-size: 70px;
     font-weight: 400;
-    color: #EBEBEA;
+    text-align: center;
+    color: #595959;
 }
 
 .perks-section {
@@ -121,14 +121,14 @@ body {
 }
 
 .solutions-title {
-    text-align: right;
-    font-size: 70px;
+    text-align: center;
+    font-size: 5em;
     font-weight: 400;
-    color: #EBEBEA;
+    color: #595959;
 }
 
 .container-solutions {
-    padding-top: 30%;
+    padding-top: 10%;
 }
 
 .model-picture {
@@ -193,10 +193,10 @@ body {
 }
 
 .testimonials-title {
-    font-size: 70px;
+    font-size: 5em;
     font-weight: 400;
-    color: #EBEBEA;
-    text-align: left;
+    color: #595959;
+    text-align: center;
 }
 
 .testimonial-img {
@@ -223,6 +223,12 @@ body {
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-child > div {
+    flex: 1;
+    min-width: 300px;
 }
 
 .flex-child {
@@ -428,7 +434,6 @@ body {
 /* Footer */
 
 .footer {
-    width: 100%;
     height: 280px;
     padding: 3% 3%;
     background-color: #6580A1;
@@ -499,38 +504,77 @@ body {
 
 /* Media Queries */
 
+@media screen and (max-width: 1264px) {
+    .flex-container {
+        display: grid;
+    }
+}
+
  @media screen and (max-width: 1174px) {
      .model-picture, .model-picture-right {
          margin: 10% 0 10% 0;
      }
 
     .solutions-block {
-        display: inline-block;
         padding: 50px 0 50px 0%;
         margin: auto;
+        text-align: center;
     }
     
     .model-title, .model-title-right, .model-description, .model-description-right {
         text-align: center;
-        width: 360px;
     }
 
     .container-solutions {
-        padding: 30% 0 0 25%;
+        padding: 10% 0 0 20%;
     }
 
     .col-md-6 {
-        width: 100%;
+        width: 80%;
+    }
+
+    .titles-boxes, .titles-boxes-right {
+        margin: 0 auto;
+    }
+
+    .solutions-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .d-flex {
+        display: block!important;
     }
 }
 
 @media screen and (max-width: 770px) {
+
+    .main-title {
+        text-align: center;
+    }
+
     .navbar {
         text-align: left;
     }
 
     .container-solutions {
         padding-left: 15%;
+    }
+}
+
+@media screen and (max-width: 643px) {
+    /*.titles-boxes {
+        width: 80%;
+    }*/
+
+    .testimonials-title {
+        font-size: 3em;
+    }
+
+    .model-picture, .model-picture-right {
+        width: 110%;
+        height: auto;
     }
 }
 
