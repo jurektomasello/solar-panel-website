@@ -70,6 +70,7 @@ body {
 /* Offer Page */
 
 #offer-page {
+    text-align: center;
     font-family: 'Cabin', sans-serif;
     padding: 2% 10%;
 }
@@ -113,7 +114,7 @@ body {
 
 .solutions-title {
     text-align: center;
-    font-size: 5em;
+    font-size: 7vw;
     font-weight: 400;
     color: #595959;
 }
@@ -212,9 +213,10 @@ body {
     position: relative;
 }
 
-.flex-container {
+.contact-container {
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .flex-child>div {
@@ -237,18 +239,18 @@ body {
 .container-contact {
     flex: 0 1 300px;
     margin-top: 7%;
-    padding: 10px;
+    padding: 0 0 8% 0;
 }
 
 .contact-left-title {
     margin: 0 0 0 15%;
-    font-size: 60px;
+    font-size: 7vw;
     display: inline;
 }
 
 .contact-right-title {
     color: #EBEBEA;
-    font-size: 60px;
+    font-size: 7vw;
     text-align: center;
 }
 
@@ -256,10 +258,10 @@ body {
 
 .screen {
     position: relative;
-    margin: 0 0 2.5% 3%;
+    margin: 0 auto;
     background: #90A5B9;
     border-radius: 15px;
-    width: 60%;
+    width: 70%;
 }
 
 .screen:after {
@@ -411,14 +413,15 @@ body {
 .address {
     color: #EBEBEA;
     font-size: 17px;
-    position: absolute;
     margin: 6% 0 0 2%;
 }
 
-/* Map */
-
-.mapouter {
-    margin-top: 22%;
+.map-icon {
+    font-size: 16em;
+    color: white;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
 }
 
 /* Footer */
@@ -483,9 +486,13 @@ body {
 
 /* Media Queries */
 
-@media screen and (max-width: 1264px) {
-    .flex-container {
+@media screen and (max-width: 1000px) {
+    .contact-container {
         display: grid;
+    }
+
+    .right-half {
+        padding-bottom: 10%;
     }
 }
 
@@ -503,9 +510,6 @@ body {
     }
     .container-solutions {
         padding: 10% 0 0 20%;
-    }
-    .col-md-6 {
-        width: 80%;
     }
     .titles-boxes, .titles-boxes-right {
         margin: 0 auto;
@@ -545,6 +549,10 @@ body {
         width: 110%;
         height: auto;
     }
+
+    .right-half {
+        display: inline-grid;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -565,6 +573,13 @@ body {
     }
 }
 
+@media screen and (max-width: 450px) {
+    #testimonials-page {
+        padding: 0;
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .screen-body {
         padding: 40px;
@@ -572,8 +587,4 @@ body {
     .screen-body-item {
         padding: 0;
     }
-}
-
-* {
-    outline: 3px solid red;
 }
