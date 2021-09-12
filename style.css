@@ -63,7 +63,7 @@ body {
 .main-title {
     padding-left: 4%;
     font-family: 'Cabin', sans-serif;
-    font-size: 70px;
+    font-size: 6em;
     font-weight: 300;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .offer-title {
-    font-size: 70px;
+    font-size: 5em;
     font-weight: 400;
     text-align: center;
     color: #595959;
@@ -114,7 +114,7 @@ body {
 
 .solutions-title {
     text-align: center;
-    font-size: 7vw;
+    font-size: 5em;
     font-weight: 400;
     color: #595959;
 }
@@ -229,6 +229,7 @@ body {
 
 .left-half {
     padding-top: 3%;
+    text-align: center;
 }
 
 .right-half {
@@ -243,14 +244,13 @@ body {
 }
 
 .contact-left-title {
-    margin: 0 0 0 15%;
-    font-size: 7vw;
+    font-size: 5em;
     display: inline;
 }
 
 .contact-right-title {
     color: #EBEBEA;
-    font-size: 7vw;
+    font-size: 5em;
     text-align: center;
 }
 
@@ -412,19 +412,23 @@ body {
 
 .address {
     color: #EBEBEA;
-    font-size: 17px;
-    margin: 6% 0 0 2%;
+    font-size: 1.2em;
+    margin: 10% 0 0 8%;
 }
 
 .map-icon {
     font-size: 16em;
     color: white;
     float: right;
-    margin-right: 10%;
-    margin-top: 10%;
+    margin: 10% 10% 10% 0;
 }
 
 /* Footer */
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
 
 .footer {
     padding: 3% 3%;
@@ -450,10 +454,6 @@ body {
 .footer ul a {
     color: #EBEBEA;
     text-decoration: none;
-}
-
-.footer-list {
-    margin-right: 12%;
 }
 
 .footer-list li {
@@ -486,15 +486,6 @@ body {
 
 /* Media Queries */
 
-@media screen and (max-width: 1000px) {
-    .contact-container {
-        display: grid;
-    }
-
-    .right-half {
-        padding-bottom: 10%;
-    }
-}
 
 @media screen and (max-width: 1174px) {
     .model-picture, .model-picture-right {
@@ -519,9 +510,26 @@ body {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .contact-container {
+        display: grid;
+    }
+
+    .right-half {
+        padding-bottom: 10%;
+    }
+    .map-icon {
+        margin-bottom: 0;
+    }
+}
+
 @media screen and (max-width: 990px) {
     .d-flex {
         display: block!important;
+    }
+
+    .footer-container {
+        text-align: center;
     }
 }
 
@@ -552,6 +560,30 @@ body {
 
     .right-half {
         display: inline-grid;
+        text-align: center;
+    }
+
+    .map-icon {
+        margin-right: 0;
+    }
+
+    .address {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .screen-body {
+        padding: 40px;
+    }
+    .screen-body-item {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-list, .footer-logo {
+        padding: 4% 0 4% 0;
     }
 }
 
@@ -578,13 +610,22 @@ body {
         padding: 0;
         margin: 0;
     }
+
+    .map-icon {
+        font-size: 12em;
+    }
+
+    .solutions-title, .offer-title, .testimonials-title, .contact-left-title, .contact-right-title {
+        font-size: 4em;
+    }
+
+    .main-title {
+        font-size: 5em;
+    }.
 }
 
-@media screen and (max-width: 600px) {
-    .screen-body {
-        padding: 40px;
-    }
-    .screen-body-item {
-        padding: 0;
+@media screen and (max-width: 342px) {
+    .solutions-title, .offer-title, .testimonials-title, .contact-left-title, .contact-right-title {
+        font-size: 3em;
     }
 }
