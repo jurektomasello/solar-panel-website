@@ -499,14 +499,9 @@ body {
     .model-title, .model-title-right, .model-description, .model-description-right {
         text-align: center;
     }
-    .container-solutions {
-        padding: 10% 0 0 20%;
-    }
+
     .titles-boxes, .titles-boxes-right {
         margin: 0 auto;
-    }
-    .solutions-title {
-        text-align: center;
     }
 }
 
