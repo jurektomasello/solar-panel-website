@@ -17,6 +17,10 @@ body {
 
 /* Nav bar */
 
+button.navbar-toggler:focus { 
+ 
+}
+
 .navbar {
     padding: 2% 4%;
 }
@@ -561,9 +565,10 @@ body {
     .testimonials-title {
         font-size: 3em;
     }
+
     .model-picture, .model-picture-right {
-        width: 110%;
-        height: auto;
+        width: 280px;
+        height: 280px;
     }
 
     .right-half {
@@ -634,10 +639,20 @@ body {
     .main-title {
         font-size: 5em;
     }
+
+    .model-picture, .model-picture-right {
+        width: 240px;
+        height: 240px;
+    }
 }
 
 @media screen and (max-width: 342px) {
     .solutions-title, .offer-title, .testimonials-title, .contact-left-title, .contact-right-title {
         font-size: 3em;
+    }
+
+    .model-picture, .model-picture-right {
+        width: 200px;
+        height: 200px;
     }
 }
