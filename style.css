@@ -7,7 +7,6 @@ body {
 }
 
 /* This makes the background picture responsive, nice */
-
 body {
     background: url('images/main-picture.jpg');
     background-position: center center;
@@ -16,11 +15,6 @@ body {
 }
 
 /* Nav bar */
-
-button.navbar-toggler:focus { 
- 
-}
-
 .navbar {
     padding: 2% 4%;
 }
@@ -32,7 +26,7 @@ button.navbar-toggler:focus {
 .navbar-brand {
     font-family: 'Capriola', sans-serif;
     color: #FFDE59;
-    font-size: 50px;
+    font-size: 3.1rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -54,9 +48,8 @@ button.navbar-toggler:focus {
 }
 
 /* Title */
-
 #title {
-    padding-bottom: 40%;
+    padding-bottom: 30%;
     color: white;
 }
 
@@ -67,12 +60,11 @@ button.navbar-toggler:focus {
 .main-title {
     padding-left: 4%;
     font-family: 'Cabin', sans-serif;
-    font-size: 6em;
+    font-size: 6rem;
     font-weight: 300;
 }
 
 /* Offer Page */
-
 #offer-page {
     text-align: center;
     font-family: 'Cabin', sans-serif;
@@ -84,18 +76,13 @@ button.navbar-toggler:focus {
 }
 
 .offer-title {
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: 400;
-    text-align: center;
     color: #595959;
 }
 
-.perks-section {
-    text-align: center;
-}
-
 .offer-paragraph-title {
-    font-size: 22px;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -110,7 +97,6 @@ button.navbar-toggler:focus {
 }
 
 /* Solutions Page */
-
 #solutions-page {
     font-family: 'Cabin', sans-serif;
     padding: 6% 15%;
@@ -118,7 +104,7 @@ button.navbar-toggler:focus {
 
 .solutions-title {
     text-align: center;
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: 400;
     color: #595959;
 }
@@ -137,11 +123,11 @@ button.navbar-toggler:focus {
 }
 
 .model-title {
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 
 .model-title-right {
-    font-size: 22px;
+    font-size: 1.3rem;
     text-align: right;
 }
 
@@ -168,7 +154,6 @@ button.navbar-toggler:focus {
 }
 
 /* Testimonials Page */
-
 #testimonials-page {
     font-family: 'Cabin', sans-serif;
     padding: 0 15%;
@@ -185,10 +170,9 @@ button.navbar-toggler:focus {
 }
 
 .testimonials-title {
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: 400;
     color: #595959;
-    text-align: center;
 }
 
 .testimonial-img {
@@ -202,15 +186,15 @@ button.navbar-toggler:focus {
 }
 
 .testimonial-name {
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 /* Contact Section */
-
 #contact {
     font-family: 'Cabin', sans-serif;
     margin-top: 15%;
     position: relative;
+    padding-top: 3%;
 }
 
 .contact-container {
@@ -219,7 +203,7 @@ button.navbar-toggler:focus {
     display: flex;
 }
 
-.flex-child>div {
+.flex-child > div {
     flex: 1;
 }
 
@@ -228,13 +212,11 @@ button.navbar-toggler:focus {
 }
 
 .left-half {
-    padding-top: 3%;
     text-align: center;
 }
 
 .right-half {
     background-color: #384258;
-    padding-top: 3%;
 }
 
 .container-contact {
@@ -244,18 +226,17 @@ button.navbar-toggler:focus {
 }
 
 .contact-left-title {
-    font-size: 5em;
+    font-size: 5rem;
     display: inline;
 }
 
 .contact-right-title {
     color: #EBEBEA;
-    font-size: 5em;
+    font-size: 5rem;
     text-align: center;
 }
 
 /* Contact Form */
-
 .screen {
     position: relative;
     margin: 0 auto;
@@ -342,7 +323,7 @@ button.navbar-toggler:focus {
     flex-direction: column;
     position: relative;
     color: #ea1d6f;
-    font-size: 26px;
+    font-size: 1.6rem;
 }
 
 .app-title:after {
@@ -358,7 +339,7 @@ button.navbar-toggler:focus {
 
 .app-contact {
     margin-top: auto;
-    font-size: 8px;
+    font-size: 0.5rem;
     color: #888;
 }
 
@@ -382,7 +363,7 @@ button.navbar-toggler:focus {
     border: none;
     border-bottom: 1px solid white;
     color: white;
-    font-size: 14px;
+    font-size: 0.8rem;
     text-transform: uppercase;
     outline: none;
 }
@@ -401,7 +382,7 @@ button.navbar-toggler:focus {
     background: none;
     border: none;
     color: #ea1d6f;
-    font-size: 14px;
+    font-size: 0.8rem;
     cursor: pointer;
     outline: none;
 }
@@ -412,19 +393,18 @@ button.navbar-toggler:focus {
 
 .address {
     color: #EBEBEA;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin: 10% 0 0 8%;
 }
 
 .map-icon {
-    font-size: 16em;
+    font-size: 16rem;
     color: white;
     float: right;
     margin: 10% 10% 10% 0;
 }
 
 /* Footer */
-
 .footer-container {
     display: flex;
     justify-content: space-around;
@@ -439,7 +419,7 @@ button.navbar-toggler:focus {
 }
 
 .footer ul {
-    font-size: 1em;
+    font-size: 1rem;
     list-style-type: none;
     padding: 0;
     list-style: none;
@@ -447,7 +427,7 @@ button.navbar-toggler:focus {
 
 .footer-logo p {
     font-family: 'Capriola', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -485,6 +465,11 @@ button.navbar-toggler:focus {
 }
 
 /* Media Queries */
+@media screen and (min-height: 1365px), (min-height: 1023px) {
+    #title {
+        padding-bottom: 60%;
+    }
+}
 
 @media screen and (max-width: 1199px) {
     .container-solutions {
@@ -512,10 +497,6 @@ button.navbar-toggler:focus {
 }
 
 @media screen and (max-width: 1174px) {
-    /*.model-picture, .model-picture-right {
-        margin: 10% 0 10% 0;
-    }*/
-
     .titles-boxes, .titles-boxes-right {
         margin: 0 auto;
     }
@@ -547,6 +528,7 @@ button.navbar-toggler:focus {
 @media screen and (max-width: 770px) {
     .main-title {
         text-align: center;
+        font-size: 5rem;
     }
     .navbar {
         text-align: left;
@@ -563,7 +545,7 @@ button.navbar-toggler:focus {
     }
 
     .testimonials-title {
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     .model-picture, .model-picture-right {
@@ -620,6 +602,10 @@ button.navbar-toggler:focus {
     .app-title:after {
         display: none;
     }
+
+    .main-title {
+        font-size: 4.5rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -629,30 +615,34 @@ button.navbar-toggler:focus {
     }
 
     .map-icon {
-        font-size: 12em;
+        font-size: 12rem;
     }
 
     .solutions-title, .offer-title, .testimonials-title, .contact-left-title, .contact-right-title {
-        font-size: 4em;
-    }
-
-    .main-title {
-        font-size: 5em;
+        font-size: 4rem;
     }
 
     .model-picture, .model-picture-right {
         width: 240px;
         height: 240px;
     }
+
+    .main-title {
+        font-size: 4rem;
+    }
 }
 
 @media screen and (max-width: 342px) {
     .solutions-title, .offer-title, .testimonials-title, .contact-left-title, .contact-right-title {
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     .model-picture, .model-picture-right {
         width: 200px;
         height: 200px;
+    }
+
+    .main-title {
+        font-size: 3.5rem;
     }
 }
