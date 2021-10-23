@@ -464,6 +464,10 @@ body {
     margin-bottom: 6%;
 }
 
+.scroll-up {
+    float: right;
+}
+
 /* Media Queries */
 @media screen and (min-height: 1365px), (min-height: 1023px) {
     #title {
